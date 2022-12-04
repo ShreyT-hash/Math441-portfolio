@@ -1,0 +1,36 @@
+
+
+.vertical-timeline-element .date-style{
+    font-family: Courier;
+    color: white;
+   }
+
+
+.timeline-style .portfolio-scs{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+ .header {
+    padding: 50px;
+    text-align: center;
+    background: #ff99ec;
+    color: white;
+    font-size: 30px;
+  }
+   .timeline-style {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #060606;
+  }
+
+
+   .vertical-timeline-element-title-w {
+    font-size: 25px;
+    font-family: sans-serif;
+   }

@@ -2,7 +2,7 @@
 
 .vertical-timeline-element .date-style{
     font-family: Courier;
-    color: white;
+    color: #ffffff;
    }
 
 
@@ -15,10 +15,12 @@
  .header {
     padding: 50px;
     text-align: center;
-    background: #ff99ec;
+    background: #6fb3ef;
+    margin-top: 10px;
     color: white;
     font-size: 30px;
   }
+
    .timeline-style {
     width: 100%;
     height: auto;

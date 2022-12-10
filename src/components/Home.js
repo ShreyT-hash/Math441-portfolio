@@ -147,6 +147,55 @@ function Home() {
                         </p>
                         <br />
                     </VerticalTimelineElement>
+                    <VerticalTimelineElement className='vertical-timeline-element-w'
+                        date='Reflection Card'
+                        dateClassName='date-style'
+                        iconStyle={{ background: '#7A54AE', color: '#fff' }}
+                    >
+                        <h3 className='vertical-timeline-element-title-w'> Course Reflection</h3>
+                       
+                        <p>  <span style={{ fontWeight: "normal", fontSize: "20px" }}>
+                         One of the most important things I learnt in this course was how to systematically approach
+                         different types of problems and understand that there is more than one way to solve something. 
+                         What I mean by this is that there are numerous theorems, lemmas and famous computational problems 
+                         that we learnt about in this course and in the beginning many seemed unapproachable. Even now I am not 
+                         an extreme expert in solving these and being able to get 100% correct answers however I now have the tools and a better
+                         understanding of the methodology to be able to explore computationally complex problems. 
+                         <br></br>
+                         In regards to creating artifacts, I take inspiration from a number of different things. In addition
+                         to being inspired from lectures, I take inspiration from pop culture, main stream media, YouTube etc. 
+                         I also think about programming libraries that I have always wanted to try but never got a chance or had 
+                         the motivation before and think about the interesting applications of the topics we learn in class. Putting all this 
+                         together allows me to create artifacts that I am proud of. 
+                         <br></br>
+                        
+                        </span>
+                        </p>
+                        <br />
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement className='vertical-timeline-element-w'
+                        date='Reflection Card 2'
+                        dateClassName='date-style'
+                        iconStyle={{ background: '#7A54AE', color: '#fff' }}
+                    >
+                        <h3 className='vertical-timeline-element-title-w'> Course Reflection Continued</h3>
+                       
+                        <p>  <span style={{ fontWeight: "normal", fontSize: "20px" }}>
+                         The artifact that I am most proud of is Artifact #2. I have always wanted to create a Manim animation
+                         and learn how to visualise Mathematics. This portfolio project allowed me to do that. I also learnt a number of things
+                         regarding computer graphics and have a better understanding of the Simplex Method. 
+                         <br/>
+                         I really enjoyed going from a total beginner to becoming more well versed in a number of different 
+                         Python libraries such as NetworkX, Manim, NumPy, Pandas, Matplotlib and Pulp. 
+
+                         If I were to give other students advice regarding creating their own portfolio, it would be to really try to 
+                         take inspiration from anything and everything around you. Your course schedule, different buildings in UBC,
+                        Instagram, your favourite movie etc. This and ensure that you familiarize yourself with the documentation of different libraries, it 
+                        may be time consuming in the beginning but it will save yo a lot of time in the future. 
+                        </span>
+                        </p>
+                        <br />
+                    </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
         </div>

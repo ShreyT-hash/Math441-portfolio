@@ -4,7 +4,6 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import './HomeStyle.css'
 // import Computer from '@material-ui/icons/Computer'
-import { Button } from '@material-ui/core'
 import yvr from './images/yvr.png'
 import Artifact1 from './images/Artifact1.png'
 import Artifact2 from './images/Artifact2.png'
@@ -15,10 +14,6 @@ import Artifact6 from './images/Artifact6.png'
 import Artifact7 from './images/Artifact7.png'
 
 
-import A1 from './Artifacts/441A1.zip'
-import A2 from './Artifacts/441A2.zip'
-import A3 from './Artifacts/441A3.zip'
-
 
 
 import { fontSize } from '@mui/system';
@@ -26,46 +21,6 @@ function Home() {
 
 
 
-    const handleDownload = (artifactNum) => {
-    const link = document.createElement("a");
-    let currfile = ''
-    let currfileString = ''
-    if (artifactNum === 'A1'){
-        currfile = A1
-        currfileString = '441A1.zip'
-    }
-    else if (artifactNum === 'A2'){
-        currfile = A2
-        currfileString = '441A2.zip'
-
-    }
-    else if (artifactNum === 'A3'){
-        currfile = A3
-        currfileString = '441A3.zip'
-        
-    }
-    else if (artifactNum === 'A4'){
-        // currfile = A4
-        // currfileString = '441A4.zip'
-    }
-    else if (artifactNum === 'A5'){
-        // currfile = A5
-        // currfileString = '441A5.zip'
-    }
-    else if (artifactNum === 'A6'){
-        // currfile = A6
-        // currfileString = '441A6.zip'
-    }
-    else if (artifactNum === 'A7'){
-        // currfile = A7
-        // currfileString = '441A7.zip'
-        
-    }
-    link.href = currfile
-    link.setAttribute("download", currfileString)
-    link.click();
-
-    }
     return (
         <div>
             <div className='timeline-style'>
@@ -94,7 +49,7 @@ function Home() {
                         </p>
                         <br />
                         
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A1')}>Download Artifact</Button>
+                      
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement className='vertical-timeline-element-w'
@@ -111,7 +66,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A2')}>Download Artifact</Button>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement className='vertical-timeline-element-w'
@@ -128,7 +82,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A3')}>Download Artifact</Button>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement className='vertical-timeline-element-w'
@@ -147,7 +100,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A4')}>Download Artifact</Button>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement className='vertical-timeline-element-w'
                         date='Artifact #5'
@@ -163,7 +115,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A5')}>Download Artifact</Button>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement className='vertical-timeline-element-w'
@@ -180,7 +131,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A6')}>Download Artifact</Button>
                     </VerticalTimelineElement>
 
                     {/* FINAL ELEMENT */}
@@ -196,7 +146,6 @@ function Home() {
                         </span>
                         </p>
                         <br />
-                        <Button variant="outlined" color='secondary' fullWidth='true' onClick={() => handleDownload('A7')}>Download Artifact</Button>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
